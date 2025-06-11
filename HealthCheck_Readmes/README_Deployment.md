@@ -20,14 +20,10 @@ del "%ProgramData%\Microsoft\Windows\Start Menu\Programs\Health Check Tool\Healt
 
 ## Detection Rule
 
-### Option 1 – Registry
-- Path: `HKLM\SOFTWARE\Omnissa\HealthCheck`
-- Value: `InstalledVersion = 1.0`
-
-### Option 2 – File
+### Option 1 – File
 - Exists: `C:\ProgramData\HealthCheck\HealthCheckApp.exe`
 
 ## Notes
-- Shortcuts are created automatically
-- Config is copied during install
+- Shortcuts are created automatically on Desktop and Start Menu
+- Config is copied during install using the bat file
 - Works silently and requires no user interaction
