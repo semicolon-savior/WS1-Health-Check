@@ -1,0 +1,22 @@
+{
+  "ApiUrl": "https://your.api.url",
+  "TenantCode": "dGVuYW50Y29kZQ==",
+  "Username": "api_user",
+  "Password": "YXBpcGFzc3dvcmQ=",
+  "AdminPassword": "T21uaXNzYQ==",
+  "FeatureToggles": {
+    "EnableInternetCheck": true,
+    "EnableApiCheck": true,
+    "EnableSerialDetection": true,
+    "EnableDeviceQuery": true,
+    "EnableHubReinstall": true,
+    "EnableWindowsUpdate": true,
+    "EnableRegistryWrite": true,
+    "EnableHubValidation": true,
+    "EnableFinalRegistryWrite": true
+  },
+  "Paths": {
+    "LogPath": "C:\\ProgramData\\Omnissa\\HealthCheck\\Logs\\HealthCheck.log",
+    "RegistryPath": "SOFTWARE\\Omnissa\\HealthCheck"
+  }
+}
