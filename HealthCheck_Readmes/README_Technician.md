@@ -1,7 +1,7 @@
 # Health Check Tool – Technician Instructions
 
 ## Purpose
-Used to verify post-provisioning health of a Windows device after imaging or Workspace ONE enrollment.
+Used to verify device is online, checking in to Workspace ONE UEM, and has Windows Updates Installed. This allows users or admins to quickly verify device status, esepcially for devices that may be offline for extended periods of time. 
 
 ## How to Launch
 - Via desktop shortcut
@@ -12,9 +12,9 @@ Used to verify post-provisioning health of a Windows device after imaging or Wor
 2. Checks internet connectivity
 3. Validates Workspace ONE API access
 4. Verifies device enrollment status
-5. Waits up to 5 mins for Workspace ONE check-in
-6. If needed, reinstalls Workspace ONE Hub
-7. Optionally installs Windows Updates (if enabled)
+5. Verfies device is checking in
+6. If needed, reinstalls Workspace ONE Hub silently
+7. Checks and installs Windows Updates
 8. Logs output and writes audit info to registry
 9. Displays a final success/failure message
 
