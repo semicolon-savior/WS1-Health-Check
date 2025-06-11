@@ -13,7 +13,7 @@ To streamline post-provisioning checks and reduce manual troubleshooting by auto
 - Optional Windows Updates
 - Audit logging for support teams
 
-## 🔧 Key Features
+## 🔧 Key Features 
 
 - 🔍 **Auto-detects device serial number, hostname, and user**
 - 🌐 **Checks internet connectivity**
@@ -21,7 +21,7 @@ To streamline post-provisioning checks and reduce manual troubleshooting by auto
 - 📡 **Looks up the device in Workspace ONE by serial number**
 - 🕐 **Polls for LastSeen check-in every 30 seconds for 5 minutes**
 - ♻️ **Reinstalls Intelligent Hub if check-in fails**
-- 🪟 **Optionally runs Windows Updates (if enabled in config)**
+- 🪟 **Runs Windows Updates**
 - 📝 **Logs all steps to a persistent log file**
 - 🧾 **Writes status and metadata to the Windows Registry**
 - 💬 **Displays a final Pass/Fail result to the technician**
