@@ -1,16 +1,16 @@
 # WS1-Health-Check
 # Health Check Tool
 
-The Health Check Tool is a lightweight, technician-facing Windows app designed to validate device readiness after provisioning or reimaging. It ensures that devices are properly enrolled in Workspace ONE, checking in, and up to date with critical software and OS updates.
+The Health Check Tool is a lightweight, technician-facing Windows app designed to validate device readiness. It ensures that devices are properly enrolled in Workspace ONE, checking in, and up to date with critical software and OS updates.
 
 ## ✅ Purpose
 
-To streamline post-provisioning checks and reduce manual troubleshooting by automating:
+To streamline basic device checks and reduce manual troubleshooting by automating:
 
 - Enrollment validation
 - Workspace ONE check-in confirmation
 - Workspace ONE Hub recovery
-- Optional Windows Updates
+- Windows Updates
 - Audit logging for support teams
 
 ## 🔧 Key Features 
