@@ -1,6 +1,7 @@
 # Health Check Tool – Workspace ONE Deployment Guide
 
 ## Packaging Contents
+Zip all contents up to deploy in Workspace ONE UEM
 - `Install.bat`
 - `HealthCheckApp.exe`
 - `config.json`
