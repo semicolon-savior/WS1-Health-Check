@@ -13,7 +13,8 @@
     "EnableWindowsUpdate": true,
     "EnableRegistryWrite": true,
     "EnableHubValidation": true,
-    "EnableFinalRegistryWrite": true
+    "EnableFinalRegistryWrite": true,
+    "EnableDebug": false
   },
   "Paths": {
     "LogPath": "C:\\ProgramData\\Omnissa\\HealthCheck\\Logs\\HealthCheck.log",
